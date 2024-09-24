@@ -1,0 +1,3 @@
+https://www.example.com/shop?category=books&sort=desc#reviews
+https://news.site.com/resources/articles?page=5&category=tech
+https://blog.example.org/?author=alice&year=2024

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result Page</title>
+</head>
+<body>
+    <div class="conatainer">
+        <form action="/confirmOrder" method="post">
+            <h1>Order Details</h1>
+             <div>
+                 Product Name: {{pname}}
+             </div>
+            <div>
+                Quantity: {{quantity}}
+            </div>
+            <div>
+                Name: {{name}}
+            </div>
+            <div>
+                Adress: {{address}}
+            </div>
+            <div>
+                Contact: {{contact}}
+            </div>
+            <button type="submit">Show Order Summary</button>
+        </form>
+        <p></p>
+    </div>
+</body>
+</html>
