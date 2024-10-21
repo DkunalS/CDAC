@@ -1,5 +1,6 @@
 package day01_24_09_2024;
 
+
 public class NewDate {
     private int year;
     private String month;
@@ -32,5 +33,30 @@ public class NewDate {
 
     public String toString() {
         return day + "/" + month + "/" + year;
+    }
+
+    public void setDate(int d, String m, int y){
+        day = d;
+        month = m;
+        year = y;
+    }
+
+    public static class Date {
+        private int day;
+        private String month;
+        private int year;
+
+        public void setDate(int d, String m, int y){
+            day = d;
+            month = m;
+            year = y;
+        }
+
+        public void displayDate(){
+            System.out.println("Date: " + day + "/" + month + "/" + year);
+        }
+
+
+
     }
 }

@@ -5,6 +5,10 @@ import java.lang.Math;
 
 public class practice {
     public static void main(String[] args) {
-        System.out.println(Math.abs(5));   // It returns the absolute value of datatype
+        int []arr = {12,13,14,15};
+        for(int a : arr)
+        {
+
+        }
     }
 }
